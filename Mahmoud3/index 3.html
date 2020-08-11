@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      body
+      {
+        background:#c6c6c6;Font-Family;Arial,Tahoma
+      }
+
+     fieldset
+      {
+        background:#c6e6e4;
+        border:1px solid #CCC;
+        padding:10px;
+        margin-bottom:20px;
+      }
+
+      legend
+      {
+        background:#c6e6e4;
+        border:1px solid #CCC;
+        padding:6px;
+      }
+
+      label , input
+      {
+        margin-bottom:4px; margin-top:6px;
+      }
+
+      input[type="text"],[type="Password"] ,textarea
+       {
+         padding:6px; width:300px;display:block
+       }
+       textarea
+        {
+          padding:15px; width:400px; height:100px; margin-bottom:10px;
+        }
+        table ,td ,th {border:1px; solid:#676767 }
+        table {width:700px}
+        thead td {font-weight:bold; text-align:center; color:#FFF; background:#333; padding:5px ;}
+        tfoot , tbody td {text-align:center; padding:5px ; background:#EFEFEF }
+        caption { }
+     </style>
+</head>
+   <body>
+      <!-- This  form is in order to be able to register and join a team Compiler -->
+    <form name="login">
+
+      <fieldset>
+        <!-- This is some Personal information about any one need to join a team -->
+
+        <legend> Personal information </legend>
+        <label>Username</label>
+        <input type="text" name="username">
+        <label>Password</label>
+        <input type="Password" name="Password">
+        <label>E-mail</label>
+        <input type="text" name="email"> <br>
+        <label> Upload Your CV </label>
+        <input type="file"> <br> <br>
+        <label> Gender </label>
+        <select>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <!-- This is Some Things about him -->
+
+        <legend>Your Favourites</legend>
+        <label> <b> Your Favourite Programing Language </b> </label> <br>
+        <input type="radio" name="programing">C++ <br>
+        <input type="radio" name="programing">Html <br>
+        <input type="radio" name="programing">JavaScript <br>
+        <input type="radio" name="programing"> Another Language <br>
+        <input type="text"  value=""placeholder="Type Your Favourite Language" <br>
+        <hr>
+        <label> <b> Your Favourite Phone </b> </label> <br>
+        <input type="radio" name="phone">Iphone <br>
+        <input type="radio" name="phone">Samsung <br>
+        <input type="radio" name="phone">Redmi <br>
+        <input type="radio" name="phone"> Another Sort <br>
+        <input type="text"  value=""placeholder="Type Your Favourite Phone" <br>
+        <hr>
+        <label><b> Your Favourite Skills </b></label> <br>
+        <input type="radio" name="Skill"> Communication <br>
+        <input type="radio" name="Skill"> Leadership <br>
+        <input type="radio" name="Skill"> Work Under pressure <br>
+        <input type="radio" name="Skill"> Another Skill <br>
+        <input type="text"  value="" placeholder="Type Your Favourite Skill" <br>
+
+      </fieldset>
+      <fieldset>
+        <!-- Here 'he or she should type any Thing needed to send to HR Presdent'-->
+
+        <legend> Your Massage </legend>
+        <textarea></textarea>
+        <input type="submit" value="Send Your Data" <br>
+
+      </fieldset>
+    </form>
+    <br> <br>
+    <table>
+      <!-- This schedule will be followed by our Team in the coming days-->
+
+     <caption> <b>This is Our Plan Tabel </b> </caption>
+     <thead>
+       <tr>
+          <td>Plan</td>
+          <td>Language</td>
+          <td>Duration</td>
+       </tr>
+     </thead>
+
+     <tbody>
+       <tr>
+          <td>Plan 1</td>
+          <td>Learn Html</td>
+          <td> 2 Week </td>
+       </tr>
+       <tr>
+          <td>Plan 2</td>
+          <td>Learn Css </td>
+          <td> Week and 10 Days </td>
+       </tr>
+       <tr>
+          <td>Plan 3</td>
+          <td>Learn Html5</td>
+          <td> 3 Weeks </td>
+       </tr>
+       <tr>
+          <td>Plan 4</td>
+          <td>Learn Css3</td>
+          <td> 2 Weeks </td>
+       </tr>
+     </tbody>
+
+     <tfoot>
+       <tr>
+          <td>Plan 5</td>
+          <td>Learn JavaScript and Review The Above</td>
+          <td>1 Month</td>
+       </tr>
+     </tfoot>
+
+   </table>
+    <br>
+    <br>
+
+    <iframe name="W3.Org" src="http://www.w3.org" width="700px"height="400px">
+    </iframe>
+  </body>
+</html>
