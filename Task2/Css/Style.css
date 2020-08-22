@@ -1,0 +1,204 @@
+body
+{
+  margin:0;
+  padding:0;
+  font-weight: bold;
+}
+.Tap
+{
+  background:#000000;
+  height:70px;
+  margin:0 0 20px 0 ;
+}
+a
+{
+  text-decoration:none;
+  color:#FFFFFF;
+  display: block;
+}
+li
+{
+  list-style: none;
+  font-size:20px;
+  line-height:30px;
+}
+.icone
+{
+  float:right;
+  padding:10px;
+  margin:8px;
+}
+.icone:hover
+{
+ transition:1s;
+ background:#3d3d3d;
+}
+.brand
+{
+  background:#080;
+  width:50px;
+  float:left;
+  margin:10px 0 ;
+  padding:10px;
+}
+.view
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color:#FFFFFF;
+}
+.about,.blog,.contact,.projects
+{
+ background:#080;
+ border-radius:0 5px 5px 0;
+ margin-bottom:3px;
+ height:50px;
+ padding-top:15px;
+ width:200px;
+ left:-180px;
+ position:fixed;
+ top:110px;
+ cursor:pointer;
+ z-index:1;
+}
+.about:hover,.blog:hover,.contact:hover,.projects:hover
+{
+  left:0;
+  transition:1s;
+}
+.blog
+{
+  background:#00F;
+  top:180px;
+}
+.contact
+{
+  background:#F00;
+  top:250px;
+}
+.projects
+{
+  background:#3b3b3b;
+  top:320px;
+}
+
+h1
+{
+  padding:10px;
+  margin-left:35px;
+  font-family: fantasy;
+}
+h2
+{
+  color:#FFFFFF;
+  background:#000000;
+  padding:10px;
+  margin-left:35px;
+  font-family: monospace;
+  position:sticky;
+  top:0.25px;
+
+}
+.list
+{
+  margin-left:60px;
+  padding-left:20px;
+}
+.fixed-background
+{
+  background:#2f9d90;
+  width:900px;
+  padding:30px;
+  margin:60px;
+  margin-left:250px;
+  font-size:20px;
+  font-family:tahoma;
+  max-height:23px;
+  overflow: hidden;
+  position: absolute;
+}
+.fixed-background:hover
+{
+  max-height:75px;
+  transition:.5s;
+}
+.image
+{
+  background-image:url('../images/cover.jpg');
+  height:400px;
+  padding:20px;
+}
+.image:hover:after
+{
+  content:"This is Div Hovered";
+  background-color: transparent;
+  background-color:rgba(0, 0, 255, 0.3);
+  padding:20px;
+  margin:270px 250px;
+  display:block;
+  height:50px;
+  width:500px;
+}
+.cover
+{
+  background-image: url('../images/white_blood.jpg');
+  padding:20px;
+  margin:10px;
+}
+.parent
+{
+ background-color: transparent;
+ background-color:rgb(204, 204, 0, 0.3);
+ padding:20px;
+ margin:30px;
+}
+.Child
+{
+  background-color: transparent;
+  background-color:rgb(128,0,128,0.9);
+  color:#000000;
+  padding:10px;
+  margin:10px;
+}
+.parent p
+{
+  background-color: transparent;
+  background-color:rgb(204, 204, 204,0.7);
+  height:25px;
+  padding:10px;
+  margin: 10px;
+}
+.parent p:hover~p
+{
+  background-color:rgb(0,255,0,0.7);
+  transition:1.5s;
+}
+.dark
+{
+  background-image:url('../images/Dark.jpg');
+  padding:10px;
+  margin:12px;
+}
+.First
+{
+  background-color:transparent;
+  background-color:rgb(0, 128, 128, 0.4);
+  padding:20px;
+  margin:30px;
+}
+.First:first-letter
+{
+  font-size:30px;
+  font-weight: bold;
+  color:white;
+  background:red;
+  padding:2px 2px 2px 5px ;
+  margin:3px;
+  border-radius: 5px;
+}
+.First:first-line
+{
+  background-color: transparent;
+  background-color:rgb(204, 204, 204,0.6);
+}
